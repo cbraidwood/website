@@ -5,12 +5,12 @@
   --mono-font: monospace;
   
   /* Dark theme */
-  --bg: #0d100d; /*#212121    #0d100d*/
-  --accent-bg: #2b2b2b; /*#2b2b2b;*/
+  --bg: #151515;
+  --accent-bg: #2b2b2b;
   --text: #dcdcdc;
   --text-light: #ababab;
   --border: #666;
-  --accent: #36be65; /*#ffb300   69ca8b*/
+  --accent: #36be65;
   --code: #f06292;
   --preformatted: #ccc;
   --disabled: #111;
