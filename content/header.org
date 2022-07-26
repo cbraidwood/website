@@ -1,0 +1,15 @@
+#+DESCRIPTION: Header
+#+OPTIONS: num:nil ^:{}
+
+#+begin_export html
+<div class="org-header">
+	<h1>Charlie Braidwood's Webpage</h1>
+	<hr>
+	<nav class="links">
+		  [<a href='/'>Home</a>]
+		  [<a href='https://github.com/cbraidwood'>Github</a>]
+		  [<a href='mailto:charliebraidwood@gmail.com'>Email</a>]
+	</nav>
+    <hr>
+</div>
+#+end_export
