@@ -30,7 +30,7 @@
              :recursive t
              :base-directory "./org"
              :publishing-function 'org-html-publish-to-html
-             :publishing-directory "./docs"
+             :publishing-directory "./public"
 			 :with-title nil
              :with-author nil           ;; Don't include author name
              :with-creator nil ;; dont Include Emacs and Org versions in footer
