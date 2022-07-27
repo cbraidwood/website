@@ -1,0 +1,151 @@
+/* Global variables.  */
+:root {
+   /* Set serif & mono fonts */
+  --sans-font: serif;
+  --mono-font: monospace;
+  
+  /* Dark theme */
+  --bg: #151515;
+  --accent-bg: #2b2b2b;
+  --text: #dcdcdc;
+  --text-light: #ababab;
+  --border: #666;
+  --accent: #36be65;
+  --code: #f06292;
+  --preformatted: #ccc;
+  --disabled: #111;
+}
+
+    /* Add a bit of transparency so light media isn't so glaring in dark mode */
+  img,
+  video {
+    opacity: 0.8;
+  }
+
+html {
+  /* Set the font globally */
+  font-family: var(--sans-font);
+  scroll-behavior: smooth;
+}
+
+/* Make the body a nice central block */
+body {
+  color: var(--text);
+  background: var(--bg);
+  font-size: 1.15rem;
+  line-height: 1.5;
+  display: grid;
+  grid-template-columns: 1fr min(50rem, 90%) 1fr;
+  margin: 0;
+}
+
+body > * {
+  grid-column: 2;
+}
+
+/* Make the header bg full width, but the content inline with body */
+body > header {
+  background: var(--accent-bg);
+  border-bottom: 1px solid var(--border);
+  text-align: center;
+  padding: 0 0.5rem 2rem 0.5rem;
+  grid-column: 1 / -1;
+  box-sizing: border-box;
+}
+
+body > header h1 {
+  max-width: 1300px;
+  margin: 1rem auto;
+}
+
+body > header p {
+  max-width: 50rem;
+  margin: 1rem auto;
+}
+
+/* Add a little padding to ensure spacing is correct between content and header > nav */
+main {
+  padding-top: 1.5rem;
+}
+
+body > footer {
+  margin-top: 4rem;
+  padding: 2rem 1rem 1.5rem 1rem;
+  color: var(--text-light);
+  font-size: 0.9rem;
+  text-align: center;
+  border-top: 1px solid var(--border);
+}
+
+/* Format headers */
+h1 {
+  font-size: 2.8rem;
+}
+
+h2 {
+  font-size: 2.6rem;
+  margin-top: 3rem;
+}
+
+h3 {
+  font-size: 2rem;
+  margin-top: 3rem;
+}
+
+h4 {
+  font-size: 1.44rem;
+}
+
+h5 {
+  font-size: 1.15rem;
+}
+
+h6 {
+  font-size: 0.96rem;
+}
+
+/* Fix line height when title wraps */
+h1,
+h2,
+h3 {
+  line-height: 1.1;
+}
+
+/* Reduce header size on mobile */
+@media only screen and (max-width: 720px) {
+  h1 {
+    font-size: 2.3rem;
+  }
+
+  h2 {
+    font-size: 2.1rem;
+  }
+
+  h3 {
+    font-size: 1.75rem;
+  }
+
+  h4 {
+    font-size: 1.25rem;
+  }
+}
+
+/* Format links & buttons */
+a,
+a:visited {
+  color: var(--accent);
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+/* Reduce nav side on mobile */
+@media only screen and (max-width: 720px) {
+  header > nav a {
+    border: none;
+    padding: 0;
+    text-decoration: underline;
+    line-height: 1;
+  }
+}
