@@ -9,11 +9,11 @@ You can email me at:
 
 If you feel inclined, you can encrypt your message to me using my GPG key below:
 
-- [[../public/gpg_key.asc][Download my GPG Public Key (.asc)]]
+- [[gpg_key.asc][Download my GPG Public Key (.asc)]
 - Fingerprint: ~31FD C252 9AA4 8512 5398  619C 9086 3111 0AB1 296C~
 
   
 Or run the command via the shell:
-- ~curl -sL https://charliebraidwood.com/public/gpg_key.asc | gpg --import~
+- ~curl -sL https://charliebraidwood.com/gpg_key.asc | gpg --import~
 
 #+include: "./footer.org"
