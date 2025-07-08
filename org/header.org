@@ -3,13 +3,13 @@
 
 #+begin_export html
 <div class="org-header">
-	<h1>Charlie Braidwood's Webpage</h1>
+	<h1><a href='index.html' class='header-link'>Charlie Braidwood's Webpage</a></h1>
 	<hr>
 	<nav class="links">
-		  <!-- <a href='/'>Home</a> -->
+		  <a href='index.html'>Home</a>
+		  <a href='contact.html'>Contact</a>
 		  <a href='https://github.com/cbraidwood'>Github</a>
-		  <a href='mailto:charliebraidwood@gmail.com'>Email</a>
-      <a href='https://www.linkedin.com/in/charlie-braidwood/'>Linkedin</a>
+                  <a href='https://www.linkedin.com/in/charlie-braidwood/'>Linkedin</a>
 	</nav>
     <hr>
 </div>

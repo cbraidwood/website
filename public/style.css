@@ -78,6 +78,19 @@ body > footer {
 }
 
 /* Format headers */
+.header-link {
+  text-decoration: none;     /* no underline */
+  color: inherit;            /* same color as the heading */
+}
+
+.header-link:visited,
+.header-link:hover,
+.header-link:focus,
+.header-link:active {
+  text-decoration: none;
+  color: inherit;
+}
+
 h1 {
   font-size: 2.8rem;
 }
