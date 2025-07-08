@@ -5,7 +5,7 @@
 **** Contact Me
 
 You can email me at:  
-[[mailto:your.email@example.com][<charliebraidwood@gmail.com>]]
+[[mailto:charliebraidwood@gmail.com][<charliebraidwood@gmail.com>]]
 
 If you feel inclined, you can encrypt your message to me using my GPG key below:
 # - [[gpg_key.asc][Download my GPG Public Key (.asc)]]
