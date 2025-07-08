@@ -3,7 +3,7 @@
 
 **** Welcome to my webpage!
 
-Hello, I am Charlie Braidwood. I am a computing science and mathematics student from Scotland.
+Hello, I am Charlie Braidwood. I am a computing science and mathematics graduate from Scotland.
 
 Check out the links in the header and feel free to send me an email if you have any questions about this site.
 
@@ -11,4 +11,5 @@ Check out the links in the header and feel free to send me an email if you have 
 # import os
 # print("hi")
 # #+end_src
+
 #+include: "./footer.org"
